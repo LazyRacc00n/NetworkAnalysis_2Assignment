@@ -6,7 +6,7 @@ Second assignment of the network analysis course
 
 For the first part of the assignment we performed the experiments of the option number 1, which plans to perform robustness test on small graph. </br>
 We have choosen two kind of graphs:
--  The first, showed in *figure 1*, is the already known **Zachary’s Karate Club** graph, which is a social network of a university karate club. This network is composed by 34 nodes ( member of a karate club ), and there are links between pairs of members who interacted outside the club.
+
 -  The second
 </br></br>
 
@@ -14,13 +14,20 @@ We have choosen two kind of graphs:
 
 
 ### Karate Club Graph
-
+The first, showed in *figure 1*, is the already known **Zachary’s Karate Club** graph, which is a social network of a university karate club. This network is composed by 34 nodes ( member of a karate club ), and there are links between pairs of members who interacted outside the club.
 
 <figure align=center>
     <img src="./images/graph1.png" width="50%" height="50%">
     <figcaption> <i> Figure 1 - Karate Club Graph </i> </figcaption>
   
 </figure>
+
+
+<table><tr>
+<td> <img src="./images/Karate%20Club_giant_component_size.png"> </td>
+<td> <img src="./images/Karate%20Club_diameter.png" /> </td>
+</tr></table>
+
 
 
 <figure style="display:inline-block">
