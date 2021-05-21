@@ -7,13 +7,13 @@ Second assignment of the network analysis course
 For the first part of the assignment we performed the experiments of the option number 1.
 </br></br>
 
-<center>
-<figure>
+
+<figure align=center>
     <img src="./images/graph1.png" width="50%" height="50%">
     <figcaption> <i> Figure 1 - Karate Club Graph </i> </figcaption>
   
 </figure>
-</center>
+
 
 <center>
 <figure>
