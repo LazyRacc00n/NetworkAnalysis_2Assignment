@@ -22,20 +22,11 @@ The first, showed in *figure 1*, is the already known **Zachary’s Karate Club*
   
 </figure>
 
-
+The figure above on the left shows 
 <table><tr>
 <td> <img src="./images/Karate%20Club_giant_component_size.png"> </td>
 <td> <img src="./images/Karate%20Club_diameter.png" /> </td>
 </tr></table>
-
-
-
-<figure style="display:inline-block">
-    <img align= left src="./images/Karate%20Club_giant_component_size.png" width="50%" height="50%">
-    <img align= right src="./images/Karate%20Club_diameter.png" width="50%" height="50%">
-    <figcaption style="text-align:center"> <i> Figure 2</i> </figcaption>
-</figure>
-
 
 ###  Erdős–Rényi Random Graph
 
@@ -46,26 +37,21 @@ The first, showed in *figure 1*, is the already known **Zachary’s Karate Club*
 </figure>
 
 
-
-<figure style="display:inline-block">
-    <img align= left src="./images/Erdos%20Renyi%20Graph_giant_component_size.png" width="50%" height="50%">
-    <img align= right src="./images/Erdos%20Renyi%20Graph_diameter.png" width="50%" height="50%">
-    <figcaption style="text-align:center"> <i> Figure 3</i> </figcaption>
-</figure>
-
-
+<table><tr>
+<td> <img src="./images/Erdos%20Renyi%20Graph_giant_component_size.png"> </td>
+<td> <img src="./images/Erdos%20Renyi%20Graph_diameter.png" /> </td>
+</tr></table>
 
 ## Part 2
 
 ### Facebook Circles Combined
 
+<table><tr>
+<td> <img src="./images/Facebook%20Circles%20Combined_giant_component_size.png"> </td>
+<td> <img src="./images/Facebook%20Circles%20Combined_diameter.png" /> </td>
+</tr></table>
 
 
-<figure style="display:inline-block">
-    <img align= left src="./images/Facebook%20Circles%20Combined_giant_component_size.png" width="50%" height="50%">
-    <img align= right src="./images/Facebook%20Circles%20Combined_diameter.png" width="50%" height="50%">
-    <figcaption style="text-align:center"> <i> Figure 4</i> </figcaption>
-</figure>
 
 
 
