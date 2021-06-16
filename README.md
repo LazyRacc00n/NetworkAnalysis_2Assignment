@@ -4,7 +4,7 @@ Second assignment of the network analysis course
 
 ## Part 1
 
-For the first part of the assignment we performed the experiments of the option number 1, which plans to perform robustness test on small graph.
+For the first part of the assignment we performed the experiments of the option number 1, which plans to perform *robustness* test on small graph.
 The tests of the robustness are performed simulating different types of attack, turning off nodes with some critera:
 
 - **Higest betweenness**.
@@ -25,8 +25,8 @@ The first, showed in *figure 1*, is the already known **Zachary’s Karate Club*
   
 </figure>
 
-The figure above on the left shows the relative size of the giant component (computed by dividing the size of the giant component with the size of the original graph, since the such a network is connected) as the nodes of the graph are sequentially removed.
-The networks is more robust against random failure, and in such case the critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> is more and less 0.6. By contrast the network seems to be very vulnerable to all the target attacks with a <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c =0.2"/>.
+The figure below on the left shows the relative size of the giant component (computed by dividing the size of the giant component with the size of the original graph, since the such a network is connected) as the nodes of the graph are sequentially removed.
+The networks is more robust against random failure, and in such case the critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> is more and less 0.7. By contrast the network seems to be very vulnerable to all the target attacks with a <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c =0.2"/>. On the other hand, in the giant component plot, it is evident that this kind of network is very vulnerable to betweenness attack and high degree attack ( which are overlapped in the graph), but also to pagerank attack for which the critical threshold is about 0.2.
 <table><tr>
 <td> <img src="./images/Karate%20Club_giant_component_size.png"> </td>
 <td> <img src="./images/Karate%20Club_diameter.png" /> </td>
