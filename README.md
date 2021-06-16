@@ -26,7 +26,8 @@ The first, showed in *figure 1*, is the already known **Zachary’s Karate Club*
 </figure>
 
 The figure below on the left shows the relative size of the giant component (computed by dividing the size of the giant component with the size of the original graph, since the such a network is connected) as the nodes of the graph are sequentially removed.
-The networks is more robust against random failure, and in such case the critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> is more and less 0.7. By contrast the network seems to be very vulnerable to all the target attacks with a <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c =0.2"/>. On the other hand, in the giant component plot, it is evident that this kind of network is very vulnerable to betweenness attack and high degree attack ( which are overlapped in the graph), but also to pagerank attack for which the critical threshold is about 0.2.
+The networks is more robust against random failure, and in such case the critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> is more and less 0.7. By contrast the network seems to be very vulnerable to all the target attacks with a <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c =0.2"/>. With high degree attack and betweenness attack the behavior is the same, in fact are overlapped.
+The figure on the right, instead, shows how the diameter changes depending on the type of network attack. Again, the trends of the high degree attack and the betweeness attack are overlapped. For this kind of attacks and also for the pagerank attack,  we have a small increase in diameter at the beginning, but then decrease at the critical threshold, 0.2, going from 6 to 0 very quickly. We have a similar situation also with the random attack, in which we have an increse of the diameter before the critical threshold, 0.7, and then a drastic decreasement of the diameter which goes rapidly to zero.
 <table><tr>
 <td> <img src="./images/Karate%20Club_giant_component_size.png"> </td>
 <td> <img src="./images/Karate%20Club_diameter.png" /> </td>
@@ -41,7 +42,7 @@ The second graph we used is a random graph, generated with the the Erdős–Rén
     <figcaption> <i> Figure 2 - Erdős–Rényi Random Graph - N = 200, p = 0.1 </i> </figcaption>
 </figure>
 
-
+With this kind of network, the situation changes a lot respect to the preiovs network. Observing the graphic of the giant-component, you can notice that the Erdős–Rényi random graph presents an not very robustness against failuers with all types of network attacks. In fact, with all the target attacks, but also with the random attack the size of the giant component decrease monotonically, untill they reach the critical threshold, and when this happens the giant component goes faster to 0. Again, as in the case of the Karate Club network, the network is more robust against the random attack with a critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> equal to more or less 0.9. With the target attacks, instead, we have <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c = 0.9"/>
 <table><tr>
 <td> <img src="./images/Erdos%20Renyi%20Graph_giant_component_size.png"> </td>
 <td> <img src="./images/Erdos%20Renyi%20Graph_diameter.png" /> </td>
