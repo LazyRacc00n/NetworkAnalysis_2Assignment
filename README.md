@@ -12,7 +12,7 @@ The tests of the robustness are performed simulating different types of attack, 
 - **Higest pagerank**.
 - **Random Nodes**.
 
-For each of the above techniques is performed the test of the robustness as following: fixed one the tecniques, is choosen the node and it is removed, and then is saved the current size of the giant componte and the diameter. After the tests are executed for each technique are plotted the results in order to compare the behavior of the networks with different kind of attacks.
+For each of the above techniques is performed the test of the robustness as following: fixed one tecnique, is choosen the node and it is removed, and then is saved the current size of the giant componte and the diameter. After the execution of the tests for each technique, the results are plotted in order to compare the behavior of the networks with different types of attacks.
 
 </br></br>
 
