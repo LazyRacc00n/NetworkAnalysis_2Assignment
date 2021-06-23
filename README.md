@@ -55,6 +55,19 @@ The second graph we used is a random graph, generated with the the Erdős–Rén
     <figcaption> <i> Figure 2 - Erdős–Rényi Random Graph - N = 200, p = 0.1 </i> </figcaption>
 </figure>
 
+| Dataset statistics | Values |
+|--------------------|------- |
+| Nodes | 200                |
+| Edges | 2017               |
+| Average Degree | 20.17     |
+| Average clustering | 0.09  |
+| Global clustering |    0.10 |
+| Nodes giant component| 200 |
+| Diameter |               3  |
+| Average shortest path | 2.01|
+| Density |         0.10     |
+| Assortativity |     0.03    |
+
 With this kind of network, the situation changes a lot respect to the preiovs network. Observing the graphic below of the giant-component (the one on the left), you can notice that the Erdős–Rényi random graph presents a robustness against failuers with all types of network attacks. In fact, with all the target attacks, but also with the random attack the size of the giant component decrease monotonically, untill they reach the critical threshold, and when this happens the giant component goes faster to 0. Again, as in the case of the Karate Club network, the network is more robust against the random attack with a critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> equal to more or less 0.9. With the target attacks, instead, we have <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c = 0.9"/>.
 In the graphic on the left, i.e., the one representing the diamter variations, it is clear that this network is robust to random attack, in fact, the diameter does't change much, it oscillates in a small range ( roughly [ 0.4 - 0.5 ] ), untill to <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;=&space;0.8"/>, where there is a small increase, and then, it decreases at <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.9"/>. On the other hand, with the target attacks, instead, the diameter continues to increase untill <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.8"/>, and then, goes quickly to 0. This means that, the target attacks, attack the interconectedness of the netowk, and hence also the ability of two nodes to communicate with each other, by increasing the lengh of the path between two nodes that want communicate.
 
