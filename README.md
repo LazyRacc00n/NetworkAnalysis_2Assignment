@@ -4,15 +4,15 @@ Second assignment of the network analysis course
 
 ## Part 1
 
-For the first part of the assignment we performed the experiments of the option number 1, which plans to perform *robustness* test on small graph.
-The tests of the robustness are performed simulating different types of attack, turning off nodes with some critera:
+For the first part of the assignment we performed the experiments of the option 1, which plans to perform *robustness* test on small synthetic graphs.
+The tests of the robustness are performed simulating different types of attack, removing nodes according to the listed critera:
 
 - **Higest betweenness**.
 - **Highest degree nodes**.
 - **Higest pagerank**.
 - **Random Nodes**.
 
-For each of the above techniques is performed the test of the robustness as following: fixed one tecnique, is choosen the node and it is removed, and then is saved the current size of the giant componte and the diameter. After the execution of the tests for each technique, the results are plotted in order to compare the behavior of the networks with different types of attacks.
+The robustness is given by the current size of the diameter and the giant component, which are measured every time a node is removed from the network 
 
 </br></br>
 
