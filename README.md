@@ -42,8 +42,9 @@ The first graph we treated is the already known **Zachary’s Karate Club** grap
       
 
 
-The figure below on the left shows the relative size of the giant component (computed by dividing the size of the giant component with the size of the original graph, since the such a network is connected) as the nodes of the graph are sequentially removed.
-The networks is more robust against random failure, and in such case the critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> is more and less 0.7. By contrast the network seems to be very vulnerable to all the target attacks with a <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c&space;=&space;0.2"/>. With high degree attack and betweenness attack the behavior is the same, in fact are overlapped.
+The figure below on the left shows the relative size of the giant component (computed by dividing the size of the giant component with the size of the original graph, since the network is connected) as the nodes of the graph are sequentially removed.
+The networks is more robust against random failure, and in such case the critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> is more and less 0.7. 
+By contrast the network seems to be very vulnerable to all the target attacks with a <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c&space;=&space;0.2"/>. With high degree attack and betweenness attack the behavior is the same, in fact are overlapped.
 The figure on the right, instead, shows how the diameter changes depending on the type of network attack. Again, the trends of the high degree attack and the betweeness attack are overlapped. For this kind of attacks and also for the pagerank attack,  we have a small increase in diameter at the beginning, but then decrease at <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.2"/>, going from 6 to 0 very quickly. We have a similar situation also with the random attack, in which we have an increse of the diameter before <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.7"/> and then there is a drastic decreasement of the diameter which goes rapidly to zero.
 <table><tr>
 <td> <img src="./images/Karate%20Club_giant_component_size.png"> </td>
