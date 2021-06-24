@@ -19,16 +19,12 @@ The robustness is given by the current size of the diameter and the giant compon
 ### Karate Club Graph
 The first graph we treated is the already known **Zachary’s Karate Club** graph, which represent a social network of a university karate club. This network is composed of 34 nodes ( member of a karate club ), and there are links between pairs of members who interacted in and outside the club.
 
-<table>
-    <tr>
-        <td>
             <figure align=center>
                 <img src="./images/graph1.png" width="50%" height="50%">
                 <figcaption> <i> Figure 1 - Karate Club Graph </i> </figcaption>
   
             </figure>
-        </td>
-        <td>
+      
         
             
 | Dataset statistics | Values |
@@ -43,9 +39,7 @@ The first graph we treated is the already known **Zachary’s Karate Club** grap
 | Average shortest path | 2.40|
 | Density |         0.13      |
 | Assortativity |     -0.47    |
-        </td>
-    </tr>
-</table>
+      
 
 
 The figure below on the left shows the relative size of the giant component (computed by dividing the size of the giant component with the size of the original graph, since the such a network is connected) as the nodes of the graph are sequentially removed.
