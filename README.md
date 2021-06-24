@@ -83,9 +83,12 @@ This kind of network behaves very differently: The plot below of the **giant com
 
 As in the case of the Karate Club network, the network is more robust against the random attack with a critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> equal to more or less 0.9. With the target attacks, instead, we have at most <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c=0.7"/>. But it requires that most of nodes should be removed.
 
-The plot on the right represent the **diameter** variations, also here it's clear that the network is more robust to random attack, in fact, the diameter does't change much, it oscillates in a small range ( roughly [ 0.4 - 0.5 ] ), untill to <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;=&space;0.8"/>, where there is a small increase, and then, it decreases at <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.9"/>. 
+The plot on the right represents the **diameter** variations: also here it's clear that the network is more robust against random attack, in fact the diameter does't change too much until the majority of the nodes are not removed, it oscillates until <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;f_c=0.9"/> where the network is completely destroyed. 
 
-On the other hand, with the target attacks, instead, the diameter continues to increase untill <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.8"/>, and then, goes quickly to 0. This means that, the target attacks, attack the interconectedness of the netowk, and hence also the ability of two nodes to communicate with each other, by increasing the lengh of the path between two nodes that want communicate.
+On the other hand, with the target attacks the diameter increases a lot untill the critical point <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.8"/>, where the network break apart and the diameter goes quickly to 0. Since the diameter characterizes the ability of two nodes
+to communicate with each other, the target attacks, affect the interconnectedness of the network by increasing a lot the length of the path between two nodes that want communicate.
+
+The lines are chainsaw shaped because each time a node is removed the biggest connected subgraph is selected and the new diameter can be particularly different.
 
 <table><tr>
 <td> <img src="./images/Erdos%20Renyi%20Graph_giant_component_size.png"> </td>
