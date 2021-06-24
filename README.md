@@ -47,11 +47,15 @@ The networks is more robust against *random failure*, and in such case the criti
 
 By contrast the network seems to be very vulnerable to all the *target attacks* with a <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c&space;=&space;0.2"/>. With high degree, betweenness and Pagerank attacks the behavior is the same, and they also overlap in some part.
 
-The figure on the right, instead, shows how the **diameter** changes depending on the type of network attack. Again, the trends of the high degree attack and the betweeness attack are overlapped. For this kind of attacks and also for the pagerank attack,  we have a small increase in diameter at the beginning, but then decrease at <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.2"/>, going from 6 to 0 very quickly. We have a similar situation also with the random attack, in which we have an increse of the diameter before <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.7"/> and then there is a drastic decreasement of the diameter which goes rapidly to zero.
+The figure on the right shows how the **diameter** changes depending on the type of network attack. Again, the targeted attacks breaks apart the network in a few steps,  we have a small increase in diameter at the beginning, but then decrease at <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.2"/>, going from 6 to 0 very rapidly. 
+The random attack takes more steps to disaggregate the network, in which we have an increse of the diameter before <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.7"/> and then there is a drastic decreasement of the diameter which goes rapidly to zero.
+The initial encreasment is due to selection of the largest subgraph when the network is not connetced anymore.
 <table><tr>
 <td> <img src="./images/Karate%20Club_giant_component_size.png"> </td>
 <td> <img src="./images/Karate%20Club_diameter.png" /> </td>
 </tr></table>
+
+Even if it is a very small network it shows a behaviour as it is a power-law one, in fact it is dissassortative and to connect the nodes relies on a few hubs.
 
 ###  Erdős–Rényi Random Graph
 
