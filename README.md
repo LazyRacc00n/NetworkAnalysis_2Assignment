@@ -13,9 +13,7 @@ The tests of the robustness are performed simulating different types of attack, 
 - **Random Nodes**.
 
 The robustness is given by the current size of the diameter and the giant component, which are measured every time a node is removed from the network 
-
 </br></br>
-
 ### Karate Club Graph
 The first graph we treated is the already known **Zachary’s Karate Club** graph, which represent a social network of a university karate club. This network is composed of 34 nodes ( member of a karate club ), and there are links between pairs of members who interacted in and outside the club.
 
@@ -97,6 +95,8 @@ The lines are chainsaw shaped because each time a node is removed the biggest co
 
 ## Part 2
 
+For the second part of the assignment we performed the same experiments on the Facebook dataset. Since this network is very large the experiments are made removing 10 nodes at times, otherwise the execution would take too much.
+
 ### Facebook Circles Combined
 
 <table><tr>
@@ -107,7 +107,6 @@ The lines are chainsaw shaped because each time a node is removed the biggest co
 
 
 
-We performed the same experiments on the Facebook dataset we already used in the first assignment. Sice this network is very large, the experiments are made removing 10 nodes at times, otherwise the execution would take too long.
 This network is scale-free, and hence is more vunerable to the target attacks, especially with the betweeness attack, with which there is, even with a few nodes removed, a drastic reduction of the giant component. Here the citical threshold, <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/>, is between 0.1 and 0.2, instead, with the page rank and high degree node attacks are respectively, more or less, 0.3 and 0.4. On the other hand, the network is more robust to random attack, in fact, in order to destroy the giant component, it is necessary remove more ore less the 80% of the node in the network ( <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c&space;=&space;0.8"/> ).
 From point of view of the diameter, the pagerank attack and the high degree attack have a significantly impact on the diameter, in fact, with this kinds of attacks there is a great increasement of the diameter, before becoming 0, and hence this means a significant impact on the avarage shortest path and therefore also in the ability of two nodes to communicate.
 With the betweeeness attack, there is a peak at the beginning, and then a quick decreasment. As in the previous network, the a random attack is the one that affect less the diameter, in fact, it oscillates in a small range untill 0.5, and then, when the number of nodes removed in significant, the diameter increase, reaching the peak at <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.7"/>. Also here, after the peak, there is a rapid decline towards 0.
