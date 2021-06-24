@@ -81,7 +81,7 @@ The second synthetic graph is a random graph, generated with the the Erdős–R�
 
 This kind of network behaves very differently: The plot below of the **giant component** (on the left) shows that the Erdős–Rényi random graph we made is robust against failures of all the types we tested. The size of the giant component decreases monotonically with all the attacks, but also here the targeted attacks break apart the giant component more rapidly.
 
-As in the case of the Karate Club network, the network is more robust against the random attack with a critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> equal to more or less 0.9. With the target attacks, instead, we have at most <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c = 0.7"/>. But it requires that most of nodes should be removed.
+As in the case of the Karate Club network, the network is more robust against the random attack with a critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> equal to more or less 0.9. With the target attacks, instead, we have at most <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c=0.7"/>. But it requires that most of nodes should be removed.
 
 The plot on the right represent the **diameter** variations, also here it's clear that the network is more robust to random attack, in fact, the diameter does't change much, it oscillates in a small range ( roughly [ 0.4 - 0.5 ] ), untill to <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;=&space;0.8"/>, where there is a small increase, and then, it decreases at <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.9"/>. 
 
