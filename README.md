@@ -112,13 +112,13 @@ This network is scale-free and hence it should be more vunerable to target attac
 Especially with the betwenness attack because the graph has very few nodes with an high betwennes, the giant component will break apart in a very few steps. the citical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/>, is between 0.1 and 0.2.
 
 With the pagerank and high degree node attacks are respectively, more or less, 0.3 and 0.4.
-
 But as can be expected the network is more robust against random attacks: in order to destroy the giant component it's necessary to remove about the 80% of the node in the network ( <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c&space;=&space;0.8"/> ).
 
 From point of view of the diameter, the pagerank and the high degree  have a significantly impact on the diameter: diameter encreases a until the network is made up of isolated nodes.
 
 
 As said before the networks has very few nodes with a relevant betwenness so it is necessary to remove some of them to remove completely the communication between the nodes, the diameter doesn't even encreases as the other attacks. This means that the network relies on very few nodes to keep together the various communities.
-As in the previous network, the a random attack is the one that affect less the diameter, in fact, it oscillates in a small range untill 0.5, and then, when the number of nodes removed in significant, the diameter increase, reaching the peak at <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.7"/>. Also here, after the peak, there is a rapid decline towards 0.
 
+
+the a random attacks are the one that affect less the diameter, it doesn't even encrease too much but it is necessary about 80% of the nodes to destroy the network. 
 As expected, the network is robust against random attacks because it follows a power law distribution.
