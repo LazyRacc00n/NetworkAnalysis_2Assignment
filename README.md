@@ -17,14 +17,20 @@ The robustness is given by the current size of the diameter and the giant compon
 </br></br>
 
 ### Karate Club Graph
-The first, showed in *figure 1*, is the already known **Zachary’s Karate Club** graph, which is a social network of a university karate club. This network is composed by 34 nodes ( member of a karate club ), and there are links between pairs of members who interacted outside the club.
+The first graph we treated is the already known **Zachary’s Karate Club** graph, which represent a social network of a university karate club. This network is composed of 34 nodes ( member of a karate club ), and there are links between pairs of members who interacted in and outside the club.
 
-<figure align=center>
-    <img src="./images/graph1.png" width="50%" height="50%">
-    <figcaption> <i> Figure 1 - Karate Club Graph </i> </figcaption>
+<table>
+    <tr>
+        <td>
+            <figure align=center>
+                <img src="./images/graph1.png" width="50%" height="50%">
+                <figcaption> <i> Figure 1 - Karate Club Graph </i> </figcaption>
   
-</figure>
-
+            </figure>
+        </td>
+        <td>
+        
+            
 | Dataset statistics | Values |
 |--------------------|------- |
 | Nodes | 34                |
@@ -37,6 +43,10 @@ The first, showed in *figure 1*, is the already known **Zachary’s Karate Club*
 | Average shortest path | 2.40|
 | Density |         0.13      |
 | Assortativity |     -0.47    |
+        </td>
+    </tr>
+</table>
+
 
 The figure below on the left shows the relative size of the giant component (computed by dividing the size of the giant component with the size of the original graph, since the such a network is connected) as the nodes of the graph are sequentially removed.
 The networks is more robust against random failure, and in such case the critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> is more and less 0.7. By contrast the network seems to be very vulnerable to all the target attacks with a <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c&space;=&space;0.2"/>. With high degree attack and betweenness attack the behavior is the same, in fact are overlapped.
