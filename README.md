@@ -18,7 +18,7 @@ The robustness is given by the current size of the diameter and the giant compon
 The first graph we treated is the already known **Zachary’s Karate Club** graph, which represent a social network of a university karate club. This network is composed of 34 nodes ( member of a karate club ), and there are links between pairs of members who interacted in and outside the club.
 
  <figure align=center>
-       <img src="./images/graph1.png" width="50%" height="50%">
+       <img src="./images/graph1.png" width="60%" height="60%">
        <figcaption> <i> Figure 1 - Karate Club Graph </i> </figcaption>
   
  </figure>
@@ -48,9 +48,10 @@ By contrast the network seems to be very vulnerable to all the *target attacks* 
 The figure on the right shows how the **diameter** changes depending on the type of network attack. Again, the targeted attacks breaks apart the network in a few steps,  we have a small increase in diameter at the beginning, but then decrease at <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.2"/>, going from 6 to 0 very rapidly. 
 The random attack takes more steps to disaggregate the network, in which we have an increase of the diameter before <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.7"/> and then there is a drastic decreasement of the diameter which goes rapidly to zero.
 The initial increase is due to selection of the largest subgraph when the network is not connected anymore.
-<table><tr>
-<td> <img src="./images/Karate%20Club_giant_component_size.png"> </td>
-<td> <img src="./images/Karate%20Club_diameter.png" /> </td>
+
+<table style="border-collapse: collapse;"><tr style="padding: 0px; margin: 0px; border: none;">
+<td style="padding: 0px; margin: 0px; border: none;"> <img style="padding: 0px; margin: 0px; border: none;" src="./images/Karate%20Club_giant_component_size.png"> </td>
+<td style="padding: 0px; margin: 0px; border: none;"> <img style="padding: 0px; margin: 0px; border: none;" src="./images/Karate%20Club_diameter.png"/> </td>
 </tr></table>
 
 Even if it is a very small network it shows a behavior as it is a power-law one, in fact it is dissassortative and to connect the nodes relies on a few hubs.
