@@ -24,7 +24,7 @@ The first graph we treated is the already known **Zachary’s Karate Club** grap
  </figure>
       
         
-            
+</br></br></br></br></br></br></br></br>
 | Dataset statistics | Values |
 |--------------------|------- |
 | Nodes | 34                |
