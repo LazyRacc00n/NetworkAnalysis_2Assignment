@@ -82,7 +82,7 @@ This kind of network behaves very differently: The plot below of the **giant com
 
 As in the case of the Karate Club network, the network is more robust against the random attack with a critical threshold <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c"/> equal to more or less 0.9. With the target attacks, instead, we have at most <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c=0.7"/>. But it requires that most of nodes should be removed.
 
-The plot on the right represents the **diameter** variations: also here it's clear that the network is more robust against random attack, in fact the diameter doesn't change too much until the majority of the nodes are not removed, it oscillates until <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;f_c=0.9"/> where the network is completely destroyed. 
+The plot on the right represents the **diameter** variations: also here it's clear that the network is more robust against random attack, in fact the diameter doesn't change too much until the majority of the nodes are not removed, it oscillates until <img src="https://latex.codecogs.com/svg.image?\inline&space;f_c=0.9"/> where the network is completely destroyed. 
 
 On the other hand, with the target attacks the diameter increases a lot until the critical point <img src="https://latex.codecogs.com/svg.image?\inline&space;f&space;\simeq&space;0.8"/>, where the network break apart and the diameter goes quickly to 0. Since the diameter characterizes the ability of two nodes
 to communicate with each other, the target attacks, affect the interconnectedness of the network by increasing a lot the length of the path between two nodes that want communicate.
